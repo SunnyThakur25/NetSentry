@@ -163,12 +163,16 @@ Push to the branch: git push origin feature/your-feature
 Open a pull request.
 ```
 Report issues or suggest features via the GitHub Issues page.
-License
-This project is licensed under the MIT License.
-Acknowledgments
+# License
 
-Developer: SunnyThakur25
+This project is licensed under the MIT License.
+
+# Acknowledgments
+
+Developer: SunnyThakur
+
 Tools: Scapy, Nmap, Pyshark, Graphviz, TTKBootstrap
+
 Community: Open-source contributors to cybersecurity tools
 
 Contact
