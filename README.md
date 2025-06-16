@@ -4,12 +4,19 @@ NetSentry is a professional red teaming tool designed for detecting hidden Wi-Fi
 Features
 
 Wi-Fi Network Scanning: Detects hidden SSIDs using Scapy with deauthentication and probe injection (ethical use only).
+
 Device Detection: Leverages advanced Nmap scripts (http-enum, rtsp-url-brute, http-auth) to identify IP cameras and vulnerabilities.
+
 Traffic Analysis: Identifies camera streams (RTSP, MJPEG) with pyshark for real-time monitoring.
+
 Visualization: Generates graphical network trees using Graphviz, displayed in a modern GUI.
+
 Stealth Operations: Supports MAC spoofing, Tor/proxy rotation, and randomized scan timing to evade detection.
+
 Secure Storage: Encrypts scan results in an AES-protected SQLite database.
+
 Pentest Reporting: Produces detailed Markdown reports with findings and recommendations.
+
 GUI: ttkbootstrap-powered interface with dark mode, real-time progress, and a cyberpunk-inspired design.
 ```
 Project Structure
@@ -142,10 +149,12 @@ output/report.md: Pentest report with findings and recommendations.
 data/cache.db: Encrypted scan results.
 data/logs/netsentry.log: Audit logs.
 ```
-Ethical Considerations
+# Ethical Considerations
 
 Legal Compliance: Obtain explicit permission before scanning networks or devices to comply with laws (e.g., CFAA, GDPR).
+
 Ethical Use: Deauthentication and active scanning are restricted to authorized environments.
+
 Responsible Disclosure: Report vulnerabilities to system owners promptly.
 
 Testing
@@ -175,7 +184,9 @@ Tools: Scapy, Nmap, Pyshark, Graphviz, TTKBootstrap
 
 Community: Open-source contributors to cybersecurity tools
 
+
 Contact
+
 For questions or collaboration, reach out via GitHub or open an issue.
 
 NetSentry: Empowering red teams with precision and stealth.
