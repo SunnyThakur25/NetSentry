@@ -1,0 +1,8 @@
+scapy
+python-nmap
+graphviz
+pycryptodome
+requests
+pyshark
+pillow
+ttkbootstrap 

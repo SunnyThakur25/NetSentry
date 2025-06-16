@@ -1,0 +1,11 @@
+{
+    "interface": "wlan0",
+    "network_range": "192.168.1.0/24",
+    "output_json": "output/netsentry_results.json",
+    "output_tree": "output/netsentry_tree.png",
+    "oui_file": "data/oui.txt",
+    "tor_proxy": {
+        "http": "socks5://127.0.0.1:9050",
+        "https": "socks5://127.0.0.1:9050"
+    }
+}
